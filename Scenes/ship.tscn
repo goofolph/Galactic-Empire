@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://2sctlq71gja2"]
+
+[ext_resource type="PackedScene" uid="uid://by4g8fqgxgagu" path="res://Resources/ship.blend" id="1_5xhcm"]
+
+[node name="Ship" type="Node3D"]
+
+[node name="ship" parent="." instance=ExtResource("1_5xhcm")]
